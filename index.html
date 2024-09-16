@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="HDXMovies is a site that provides free streaming movies and TV series. Just like other film and TV series providers such as Netflix, Disney+, HBO, Apple TV+, Amazon Prime Video, Moviesflix strives to provide free streaming services forever to around the world.">
+    <meta name="keywords" content="HDXmovies, movies flix, HDXMovies.in, movie flix, the moviesflix, HDXmovies.com, HDXmovies hub, HDXmovies 360, HDXmovies, watch movie online, watch full movie, tv series, watch movie free, tv show">
+    <meta name="robots" content="index,follow">
+    <meta property="og:image" content="/include/images/preview.jpg">
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="350">
+    <title>Moviesflix | Watch Movies and TV Series Stream Online</title>
+   <style>
+        :root {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.taogKGowNOpwVWehVAuywAHaEo?rs=1&pid=ImgDetMain');
+    background-size: cover; /* Makes the image cover the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 36px;
+  perspective: 2500px;
+  margin: 0 50px;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card:hover .wrapper,
+.card:active .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.4s ease;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.card:hover .wrapper::before,
+.card:active .wrapper::before,
+.card:hover .wrapper::after,
+.card:active .wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after,
+.card:active .wrapper::after {
+  height: 120px;
+}
+
+.title {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .title,
+.card:active .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  position: absolute;
+  z-index: -1;
+}
+
+.card:hover .character,
+.card:active .character {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --card-height: 200px;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+
+  .card {
+    width: var(--card-width);
+    height: var(--card-height);
+    margin: 0 20px;
+    padding: 0 20px;
+  }
+
+  .wrapper::before,
+  .wrapper::after {
+    height: 60px;
+  }
+
+  .card:hover .wrapper::after,
+  .card:active .wrapper::after {
+    height: 80px;
+  }
+}
+
+   </style>
+</head>
+<body>
+    <a href="https://drive.google.com/file/d/1_joblSQpRhhSZSKErJ2_qZ0Hksml0zBP/view?usp=sharing" target="_blank">
+        <div class="card">
+            <div class="wrapper">
+                <img src="https://st1.bollywoodlife.com/wp-content/uploads/2015/05/cfca_pswmaaf7ux.jpg?impolicy=Medium_Widthonly&w=1280&h=900" class="cover-image" alt="Cover Image"/>
+            </div>
+            <img src="https://images1.dnaindia.com/images/DNA-EN/900x1600/2023/11/30/1701329395122_baahubali.0.jpg" class="character" alt="Character Image"/>
+        </div>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1ZnNlTIBD4s7vPdYIpihd1_lnnahy68a3/view?usp=sharing" target="_blank">
+        <div class="card">
+            <div class="wrapper">
+                <img src="https://th.bing.com/th/id/OIP.9OsaluQeDYjAMy4b-fwVtgHaKf?w=125&h=180&c=7&r=0&o=5&pid=1.7g" class="cover-image" alt="Cover Image"/>
+            </div>
+            <img src="https://th.bing.com/th/id/R.7804a27b687b19fa5487bd74caeb31a2?rik=u%2b6JaYSZh2qkbg&riu=http%3a%2f%2fdatastore03.rediff.com%2fh1500-w1500%2fthumb%2f69586A645B6D2A2E3131%2fz01gscmm65b712f6.D.0.Bahubali-2-New-Poster--2-.jpg&ehk=N4CfT882QdPeO7nLV5rgUveoim5PduWFuX30MufVegY%3d&risl=1&pid=ImgRaw&r=0" class="character" alt="Character Image"/>
+        </div>
+    </a>
+</body>
+</html>
